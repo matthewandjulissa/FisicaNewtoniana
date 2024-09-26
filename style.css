@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header con título sombreado y color rojo oscuro */
+header {
+    background-color: #8B0000; /* Rojo oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); /* Sombra blanca */
+    color: white; /* Texto en blanco */
+}
+
+/* Sección de información con marco rojo y fondo transparente */
+.info {
+    border: 2px solid #8B0000; /* Marco rojo */
+    background-color: transparent; /* Fondo transparente */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Imágenes centradas */
+.centered-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Enlaces con flechas */
+.ley-link {
+    margin-bottom: 30px;
+}
+
+.ley-link h2 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.click-info a {
+    color: #8B0000; /* Rojo oscuro */
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.click-info a:hover {
+    text-decoration: underline;
+}
