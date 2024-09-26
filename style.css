@@ -20,7 +20,7 @@ header h1 {
 }
 
 /* Sección de información con marco rojo y fondo transparente */
-.info {
+.bordered {
     border: 2px solid #8B0000; /* Marco rojo */
     background-color: transparent; /* Fondo transparente */
     padding: 20px;
@@ -38,10 +38,6 @@ header h1 {
 }
 
 /* Enlaces con flechas */
-.ley-link {
-    margin-bottom: 30px;
-}
-
 .ley-link h2 {
     font-size: 24px;
     display: flex;
